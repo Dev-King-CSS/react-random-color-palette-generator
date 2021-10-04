@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: #333;
+}
+.color {
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+  padding: 50px 10px;
+  border-radius: 1rem;
+  color: #333;
+  font-size: 20px;
+  border: 0.1rem solid #00aaff;
+  transition: 0.3s;
+}
+.color-light {
+  color: whitesmoke;
+}
+.copied-text {
+  color: #333;
+}
